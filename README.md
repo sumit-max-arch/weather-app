@@ -4,7 +4,7 @@ This is a weather application built using React and Open Weather API. The applic
 
 Installation
 To install the application, first clone the repository to your local machine:
-git clone :  https://github.com/sumit-max-arch/weather-app.git
+git clone :  https://github.com/sumit-max-arch/weather-app
 
 Then navigate to the project directory and install the dependencies:
 cd weatherapp
