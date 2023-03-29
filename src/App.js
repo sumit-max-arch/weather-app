@@ -1,11 +1,18 @@
-import './App.css';
+import React from 'react';
+import { Provider } from 'react-redux';
+import { Container } from 'react-bootstrap';
+import SearchForm from './components/SearchForm';
+import WeatherInfo from './components/WeatherInfo';
+import store from './store';
 
 function App() {
   return (
-    <div className="App">
-      
-      <h1>sumit</h1>
-    </div>
+    <Provider store={store}>
+      <Container>
+        <SearchForm />
+        <WeatherInfo />
+      </Container>
+    </Provider>
   );
 }
 
